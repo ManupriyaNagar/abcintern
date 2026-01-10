@@ -168,7 +168,7 @@ export default function HeroSection() {
                     {/* Third Section */}
                     <div className='bg-red-200 min-h-[300px] shadow-md flex flex-col justify-center bg-cover rounded-[2rem] bg-no-repeat'
                         style={{ backgroundImage: "url('/h3.png')" }}>
-                        third div
+                        <img src="/h3.png" alt="" />
                     </div>
                 </div>
 

@@ -23,19 +23,21 @@ export default function ImageGallery() {
     ];
 
     return (
-        <div className="bg-white py-16">
+        <div
+            className="bg-white py-16"
+            onMouseLeave={() => setHoveredIndex(0)}
+        >
             <div className="container mx-auto ">
                 <div className="flex gap-4 items-start justify-center">
                     {images.map((image, index) => {
                         const isHovered = hoveredIndex === index;
-                        const isOtherHovered = hoveredIndex !== null && hoveredIndex !== index;
+                        const isOtherHovered = hoveredIndex !== index;
 
                         return (
                             <div
                                 key={index}
                                 onMouseEnter={() => setHoveredIndex(index)}
-                                onMouseLeave={() => setHoveredIndex(null)}
-                                className={`relative rounded-3xl overflow-hidden cursor-pointer transition-all duration-700 ease-in-out ${isHovered
+                                className={`relative rounded-3xl overflow-hidden cursor-pointer transition-all duration-700  ${isHovered
                                     ? 'w-[700px] h-[600px]'
                                     : isOtherHovered
                                         ? 'w-[200px] h-[600px]'
@@ -46,12 +48,12 @@ export default function ImageGallery() {
                                 <img
                                     src={image.src}
                                     alt={image.title}
-                                    className="w-full h-full object-cover"
+                                    className="w-[700px] h-full object-cover max-w-none"
                                 />
 
                                 {/* Gradient Overlay - appears on hover */}
                                 <div
-                                    className={`absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent transition-opacity duration-500 ${isHovered ? 'opacity-100' : 'opacity-0'
+                                    className={`absolute inset-0 bg-gradient-to-r from-[#fae57f] via-white to-[#fae57f] transition-opacity duration-500 ${isHovered ? 'opacity-30' : 'opacity-0'
                                         }`}
                                 />
 
