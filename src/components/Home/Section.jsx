@@ -38,7 +38,7 @@ export default function Section() {
     return (
         <div className="bg-white py-10">
             <div className="font-inner-tight-1 container mx-auto px-6">
-                <h1 className="text-[8.5rem] font-extrabold uppercase -mt-20">
+                <h1 className="text-[8.5rem] text-gray-200 font-extrabold uppercase -mt-20">
                     Our Eco System
                 </h1>
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
@@ -47,7 +47,7 @@ export default function Section() {
                         {leftCards.map((card, index) => (
                             <div
                                 key={index}
-                                className="bg-white border border-gray-200 hover:border-0 hover:bg-gradient-to-br hover:from-white hover:to-[#fae57f] rounded-2xl p-6 transition-all duration-300 group"
+                                className="bg-white border border-gray-200 hover:border-0 hover:bg-gradient-to-br hover:from-white hover:to-[#fae57f] rounded-2xl p-6 group"
                             >
                                 <div className="flex items-start gap-4">
 
@@ -80,7 +80,7 @@ export default function Section() {
                         {rightCards.map((card, index) => (
                             <div
                                 key={index}
-                                className="bg-white border border-gray-200 hover:border-0 hover:bg-gradient-to-br hover:from-white hover:to-[#fae57f] rounded-2xl p-6 transition-all duration-300 group"
+                                className="bg-white border border-gray-200 hover:border-0 hover:bg-gradient-to-br hover:from-white hover:to-[#fae57f] rounded-2xl p-6 group"
                             >
                                 <div className="flex items-start gap-4">
                                     <div>
