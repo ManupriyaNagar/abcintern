@@ -154,7 +154,7 @@ const ScientificImpact = () => {
                             <span className="text-2xl font-bold text-gray-900">{activeService.id}</span>
                             <div className="w-full h-1.5 bg-gray-200 rounded-full overflow-hidden">
                                 <div
-                                    className="h-full bg-[#ff4d1c] rounded-full transition-all duration-500 ease-out"
+                                    className="h-full bg-[#ea9237] rounded-full transition-all duration-500 ease-out"
                                     style={{ width: `${activeService.progress}%` }}
                                 />
                             </div>

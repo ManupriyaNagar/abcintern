@@ -35,7 +35,7 @@ const Footer = () => {
 
                                     <h4 className="font-bold text-lg mt-3 mb-1 text-black">Call us</h4>
                                     <p className="text-gray-500 mb-2 hover:text-[#ea9237] transition-colors cursor-pointer font-medium">
-                                        +959979386000</p>
+                                        +95 9979386000</p>
 
                                     <h4 className="font-bold text-lg mt-3 mb-1 text-black ">Address</h4>
                                     <div className="space-y-4">
