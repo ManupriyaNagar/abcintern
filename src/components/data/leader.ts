@@ -57,37 +57,37 @@ export const financeTeam = [
     {
         name: "Khin Saw Mon",
         role: "Country Head",
-        image: "https://abcinternational.global/img/Rawal.png",
+        image: "https://abcinternational.global/img/khinsawmon.png",
         bio: "Visionary leader with decades of experience in the pharmaceutical industry."
     },
     {
         name: "Dilip Rathod",
         role: "Country Head",
-        image: "https://abcinternational.global/img/jyoti.png",
+        image: "https://abcinternational.global/img/dilip.png",
         bio: "Drives strategic vision and operational excellence."
     },
     {
         name: "Dr. Hla Hla Htay",
         role: "Country Head",
-        image: "https://abcinternational.global/img/MrsMalar-1.png",
+        image: "https://abcinternational.global/img/HlaHlaHtay.jpg",
         bio: "Architect of Myanmar operations and partnerships."
     },
     {
         name: "Ms. Cho May Thin",
         role: "Group Therapy Manager",
-        image: "https://abcinternational.global/img/Dinesh-PNG.png",
+        image: "https://abcinternational.global/img/ChoMayThin.jpg",
         bio: "Expert in supply chain and emerging markets."
     },
     {
         name: "Ms. Thazin Myint Aung",
         role: "Head of Regulatory Affairs",
-        image: "https://abcinternational.global/img/akta.png",
+        image: "https://abcinternational.global/img/ThazinMyintAung.jpg",
         bio: "Expert in supply chain and emerging markets."
     },
     {
         name: "Mr. Daanish Rawal",
         role: "Business Development Manager",
-        image: "https://abcinternational.global/img/MrJeet.png",
+        image: "https://abcinternational.global/img/DaanishRawal.jpg",
         bio: "Oversees financial strategy and fiscal responsibility."
     }
 
