@@ -68,7 +68,7 @@ const Footer = () => {
 
                                             <li><a href="/service" className="text-gray-500 hover:text-[#ea9237] transition-colors font-medium">Service</a></li>
                                             <li><a href="#" className="text-gray-500 hover:text-[#ea9237] transition-colors font-medium">Our Products</a></li>
-                                            <li><a href="/ourpeople" className="text-gray-500 hover:text-[#ea9237] transition-colors font-medium">Our Peoples</a></li>
+                                            <li><a href="/ourpeople" className="text-gray-500 hover:text-[#ea9237] transition-colors font-medium">Our People</a></li>
 
                                         </ul>
                                     </div>
@@ -119,7 +119,7 @@ const Footer = () => {
 
                 {/* Lime Green Banner */}
                 <div className="bg-gradient-to-r from-[#fae57f] via-white to-[#fae57f] text-black rounded-[1.5rem] p-8 flex flex-col md:flex-row justify-between items-center transition-all hover:shadow-2xl hover:shadow-yellow-100">
-                    <h3 className="text-black text-3xl md:text-[1.5rem] font-bold text-center md:text-left md:mb-0  leading-tight">
+                    <h3 className="text-black text-3xl md:text-[1.5rem] 2xl:text-[1.8rem] font-bold text-center md:text-left md:mb-0  leading-tight">
                         Get in touch with ABC International for business, partnership, or healthcare inquiries.
                     </h3>
                     <button className="bg-[#1a1a1a] text-white px-8 py-2 rounded-2xl font-extrabold text-lg hover:bg-black transition-all transform hover:scale-105 active:scale-95 shadow-2xl">

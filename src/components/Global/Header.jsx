@@ -31,7 +31,7 @@ export default function Header() {
                         { name: 'Home', href: '/' },
                         { name: 'Services', href: '/service' },
                         { name: 'Our Products', href: '/products' },
-                        { name: 'Our Peoples', href: '/ourpeople' },
+                        { name: 'Our People', href: '/ourpeople' },
                     ].map((link) => (
                         <Link
                             key={link.name}

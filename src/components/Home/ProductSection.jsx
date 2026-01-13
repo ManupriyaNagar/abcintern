@@ -11,12 +11,12 @@ export default function ProductSection() {
                                 <span className="text-gray-500 text-[3rem] leading-[1] hover:text-[#ea9237]"> Quality Healthcare</span>  Products
                                 with Trusted Medical Care Partners
                             </h1>
-                            <div className="text-center mt-4">
-                                <p className="text-lg">
+                            <div className="text-center  mt-4">
+                                <p className="text-lg 2xl:text-xl">
                                     ABC International works with the best partners across the globe
 
                                 </p>
-                                <p className="text-lg">
+                                <p className="text-lg 2xl:text-xl">
                                     Having over “600” quality brands working together with us, here are some of our international partners working together with us.
                                 </p>
                             </div>

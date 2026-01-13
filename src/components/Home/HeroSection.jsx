@@ -114,7 +114,7 @@ export default function HeroSection() {
                 <div className='w-1/2 flex flex-col gap-6'>
                     {/* Second Section - Auto-Rotating Carousel */}
                     <div
-                        className='relative min-h-[700px] flex flex-col justify-center bg-cover rounded-[2rem] bg-no-repeat transition-all duration-700'
+                        className='relative md:min-h-[700px] 2xl:min-h-[800px] flex flex-col justify-center bg-cover rounded-[2rem] bg-no-repeat transition-all duration-700'
                         style={{
                             backgroundImage: `url('${slides[currentSlide].image}')`,
                             backgroundSize: "cover",

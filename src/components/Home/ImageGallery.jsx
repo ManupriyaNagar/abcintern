@@ -38,10 +38,10 @@ export default function ImageGallery() {
                                 key={index}
                                 onMouseEnter={() => setHoveredIndex(index)}
                                 className={`relative rounded-3xl overflow-hidden cursor-pointer transition-all duration-700  ${isHovered
-                                    ? '2xl:w-[900px] w-[700px] h-[600px]'
+                                    ? '2xl:w-[900px] w-[700px] h-[600px] 2xl:h-[750px]'
                                     : isOtherHovered
-                                        ? '2xl:w-[400px] w-[200px] h-[600px]'
-                                        : '2xl:w-[400px] w-[350px] h-[600px]'
+                                        ? '2xl:w-[400px] w-[200px] h-[600px] 2xl:h-[750px]'
+                                        : '2xl:w-[400px] w-[350px] h-[600px] 2xl:h-[750px]'
                                     }`}
                             >
                                 {/* Image */}
