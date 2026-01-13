@@ -1,0 +1,68 @@
+[
+    {
+        "id": "medical-nutrition",
+        "title": "Medical Nutrition",
+        "image": "/products/medical-nutrition.png",
+        "tab": "wellness"
+    },
+    {
+        "id": "sports-nutrition",
+        "title": "Sports Nutrition",
+        "image": "/products/sports-nutrition.png",
+        "tab": "wellness"
+    },
+    {
+        "id": "general-wellbeing",
+        "title": "General Wellbeing",
+        "image": "/products/general-wellbeing.png",
+        "tab": "wellness"
+    },
+    {
+        "id": "vitamins",
+        "title": "Vitamins",
+        "image": "/products/vitamins.png",
+        "tab": "wellness"
+    },
+    {
+        "id": "hair-care",
+        "title": "Hair Care",
+        "image": "/products/hair-care.png",
+        "tab": "wellness"
+    },
+    {
+        "id": "kiddz-care",
+        "title": "Kiddz Care",
+        "image": "/products/kiddz-care.png",
+        "tab": "wellness"
+    },
+    {
+        "id": "probiotics",
+        "title": "Probiotics",
+        "image": "/products/probiotics.png",
+        "tab": "wellness"
+    },
+    {
+        "id": "herbal-meds",
+        "title": "Herbal Meds",
+        "image": "/products/herbal-meds.png",
+        "tab": "wellness"
+    },
+    {
+        "id": "cough-cold",
+        "title": "Cough & Cold",
+        "image": "/products/cough-cold.png",
+        "tab": "wellness"
+    },
+    {
+        "id": "mens-care",
+        "title": "Men's Care",
+        "image": "/products/mens-care.png",
+        "tab": "wellness"
+    },
+    {
+        "id": "womens-care",
+        "title": "Women's Care",
+        "image": "/products/womens-care.png",
+        "tab": "wellness"
+    }
+]

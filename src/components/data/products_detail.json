@@ -1,0 +1,30 @@
+{
+    "personal-care": [
+        {
+            "id": "immuplex",
+            "title": "IMMUPLEX",
+            "description": "Ideal health drink to stay healthy & active",
+            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop"
+        },
+        {
+            "id": "rekover",
+            "title": "REKOVER",
+            "description": "Boost immunity and maintain your overall health",
+            "image": "https://images.unsplash.com/photo-1540344448520-21396a5d44d4?w=400&h=400&fit=crop"
+        },
+        {
+            "id": "glucomeal-vanilla",
+            "title": "GLUCOMEAL VANILLA",
+            "description": "An easy and effective meal and snack solution for diabetics.",
+            "image": "https://images.unsplash.com/photo-1512438248247-f0f2a5a8b7f0?w=400&h=400&fit=crop"
+        }
+    ],
+    "medical-nutrition": [
+        {
+            "id": "immuplex",
+            "title": "IMMUPLEX",
+            "description": "Ideal health drink to stay healthy & active",
+            "image": "https://images.unsplash.com/photo-1550573105-4584e7777840?w=400&h=400&fit=crop"
+        }
+    ]
+}

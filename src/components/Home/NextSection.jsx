@@ -16,11 +16,9 @@ function AnimatedCounter({ target, suffix = '+' }) {
             },
             { threshold: 0.3 }
         );
-
         if (counterRef.current) {
             observer.observe(counterRef.current);
         }
-
         return () => {
             if (counterRef.current) {
                 observer.unobserve(counterRef.current);
@@ -131,9 +129,9 @@ export default function NextSection() {
 
                     </div>
                     <div className="w-2/3">
-                        <h1 className="p-4 text-[3rem] leading-[1.2] font-medium ">Welcome to <br /> <span className="text-[3.5rem] font-bold hover:text-[#ea9237]">ABC International</span></h1>
+                        <h1 className="p-4 2xl:text-[5rem]  text-[3rem] leading-[1.2] font-medium ">Welcome to <br /> <span className="text-[3.5rem] 2xl:text-[5rem] font-bold hover:text-[#ea9237]">ABC International</span></h1>
 
-                        <div className="p-4 text-lg bg-white mr-4 rounded-[1rem]">
+                        <div className="p-4 2xl:p-8 2xl:text-xl text-lg bg-white mr-4 rounded-[1rem]">
                             <p className="mb-4">ABC International is one of the fastest-growing healthcare conglomerates with a vision to lead the market and build trust in the world of medicine.</p>
                             <p className="mb-4">We, at ABC International, are driven by the goal to support various verticals in the medical field to establish their brand and narrate their growth story. ABC International is a strategic planner, experienced executor, regulatory advisor, and marketer of pharmaceutical products.</p>
                             <p className="mb-4">Our strategists work diligently to evaluate the most pressing issues and opportunities that can elevate our clients' growth trajectory. Our insight helps us expand beyond political boundaries including Myanmar & worldwide.</p>

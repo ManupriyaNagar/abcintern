@@ -12,8 +12,8 @@ export default function OurPeopleSection() {
                         className=" w-full bg-cover bg-center bg-no-repeat rounded-[2rem] "
                     >
                         {/* Optional overlay or empty if image is the primary focus */}
-                        <div className="p-6 rounded-[2rem]">
-                            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-black  tracking-tight p-6 hover:text-[#e57f00]">
+                        <div className="p-6 2xl:p-20 rounded-[2rem]">
+                            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-black tracking-tight p-6 hover:text-[#e57f00]">
                                 Our People
                             </h1>
                             <p className="text-lg md:text-lg text-black/80 font-medium leading-relaxed p-6">

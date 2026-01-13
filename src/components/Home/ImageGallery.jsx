@@ -38,17 +38,17 @@ export default function ImageGallery() {
                                 key={index}
                                 onMouseEnter={() => setHoveredIndex(index)}
                                 className={`relative rounded-3xl overflow-hidden cursor-pointer transition-all duration-700  ${isHovered
-                                    ? 'w-[700px] h-[600px]'
+                                    ? '2xl:w-[900px] w-[700px] h-[600px]'
                                     : isOtherHovered
-                                        ? 'w-[200px] h-[600px]'
-                                        : 'w-[350px] h-[600px]'
+                                        ? '2xl:w-[400px] w-[200px] h-[600px]'
+                                        : '2xl:w-[400px] w-[350px] h-[600px]'
                                     }`}
                             >
                                 {/* Image */}
                                 <img
                                     src={image.src}
                                     alt={image.title}
-                                    className="w-[700px] h-full object-cover max-w-none"
+                                    className="2xl:w-[800px] w-[700px] h-full md;object-cover max-w-none"
                                 />
 
                                 {/* Gradient Overlay - appears on hover */}

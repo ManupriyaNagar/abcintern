@@ -2,7 +2,7 @@
 export default function ProductSection() {
     return (
         <>
-            <div className="bg-white py-10 px-8">
+            <div className="bg-white py-10">
                 <div className="container mx-auto flex flex-row gap-8">
                     <div className="w-1/2 flex flex-col items-center justify-center text-black bg-gradient-to-r from-[#fae57f] via-white to-[#fae57f] p-6 rounded-[2rem]"
                         style={{ backgroundImage: 'url(/BG.png)', backgroundSize: 'cover', backgroundPosition: 'center' }}>

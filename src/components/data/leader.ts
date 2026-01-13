@@ -90,6 +90,4 @@ export const financeTeam = [
         image: "https://abcinternational.global/img/DaanishRawal.jpg",
         bio: "Oversees financial strategy and fiscal responsibility."
     }
-
-
 ];
